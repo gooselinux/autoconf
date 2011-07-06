@@ -1,0 +1,3 @@
+filter-requires-automake.sh
+filter-provides-automake.sh
+autoconf-2.63.tar.lzma
