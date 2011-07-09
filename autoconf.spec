@@ -41,6 +41,7 @@ their use.
 %prep
 %setup -q
 %patch0 -p1 -b .erlang
+chmod a+x %{SOURCE1} %{SOURCE2}
 
 %build
 # use ./configure here to avoid copying config.{sub,guess} with those from the
